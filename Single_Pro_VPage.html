@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product | H&M Style</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+    
+
+     <!-- Navbar -->
+    <header class="w-full shadow-sm sticky top-0 bg-white z-50">
+        <div class="container mx-auto flex items-center justify-between py-4 px-6">
+            <h1 href="index.html" class="text-3xl font-bold tracking-tight">MIUS</h1>
+            <nav class="space-x-6 hidden md:block">
+                <a href="all_pro_page.html" class="hover:text-gray-600">Men</a>
+                <a href="all_pro_page.html" class="hover:text-gray-600">Women</a>
+                <a href="all_pro_page.html" class="hover:text-gray-600">Kids</a>
+                <a href="all_pro_page.html" class="hover:text-gray-600">New Arrivals</a>
+            </nav>
+            <div class="flex items-center space-x-5">
+                <button class="hover:text-gray-600">Search</button>
+                <button class="hover:text-gray-600">Account</button>
+               <button onclick="window.location.href='Checkout_Page.html'" class="hover:text-gray-600">Cart</button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- PRODUCT PAGE -->
+    <section class="container mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-12">
+
+
+        <!-- LEFT: PRODUCT IMAGES -->
+        <div>
+            <img src="https://images.pexels.com/photos/6311395/pexels-photo-6311395.jpeg" class="w-full rounded-lg shadow-lg" />
+
+            <div class="grid grid-cols-4 gap-4 mt-4">
+                <img src="https://images.pexels.com/photos/6311385/pexels-photo-6311385.jpeg" class="rounded-md cursor-pointer hover:opacity-80" />
+                <img src="https://images.pexels.com/photos/7679723/pexels-photo-7679723.jpeg" class="rounded-md cursor-pointer hover:opacity-80" />
+                <img src="https://images.pexels.com/photos/7048069/pexels-photo-7048069.jpeg" class="rounded-md cursor-pointer hover:opacity-80" />
+                <img src="https://images.pexels.com/photos/8764971/pexels-photo-8764971.jpeg" class="rounded-md cursor-pointer hover:opacity-80" />
+            </div>
+        </div>
+
+
+        <!-- RIGHT: PRODUCT DETAILS -->
+        <div>
+            <h2 class="text-4xl font-bold">Oversized Premium T-Shirt</h2>
+            <p class="text-xl mt-2 text-gray-700">৳ 850</p>
+
+            <p class="mt-6 text-gray-600 leading-relaxed">
+                A premium-quality oversized t-shirt made from soft cotton fabric.
+                Perfect for a clean minimal H&M look. Lightweight, breathable & stylish.
+            </p>
+
+
+            <!-- SIZE SELECTOR -->
+            <div class="mt-8">
+                <h4 class="font-semibold mb-2">Select Size</h4>
+                <div class="flex gap-3">
+                    <button class="px-4 py-2 border rounded-md hover:bg-gray-100">S</button>
+                    <button class="px-4 py-2 border rounded-md hover:bg-gray-100">M</button>
+                    <button class="px-4 py-2 border rounded-md hover:bg-gray-100">L</button>
+                    <button class="px-4 py-2 border rounded-md hover:bg-gray-100">XL</button>
+                </div>
+            </div>
+
+
+            <!-- COLOR OPTIONS -->
+            <div class="mt-8">
+                <h4 class="font-semibold mb-2">Color</h4>
+                <div class="flex gap-3">
+                    <div class="w-8 h-8 rounded-full bg-black cursor-pointer border"></div>
+                    <div class="w-8 h-8 rounded-full bg-gray-700 cursor-pointer border"></div>
+                    <div class="w-8 h-8 rounded-full bg-red-600 cursor-pointer border"></div>
+                </div>
+            </div>
+
+
+            <!-- ADD TO CART -->
+            <div class="mt-10 flex gap-4">
+                <button class="flex-1 py-3 bg-black text-white rounded-md font-semibold hover:bg-gray-800">Add to Cart</button>
+                <button class="flex-1 py-3 border border-black rounded-md font-semibold hover:bg-gray-100">Wishlist</button>
+            </div>
+
+
+            <!-- EXTRA INFO -->
+            <div class="mt-10 text-sm text-gray-500 space-y-2">
+                <p>✔ Premium Soft Cotton</p>
+                <p>✔ 7-Day Easy Return</p>
+                <p>✔ Cash On Delivery Available</p>
+                <p>✔ Slim & Oversized Fit Both Available</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- RELATED PRODUCTS -->
+    <section class="container mx-auto px-6 py-16">
+        <h2 class="text-2xl font-bold mb-8">Related Products</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <div class="border p-4 rounded-lg hover:shadow-lg transition">
+                <img src="https://images.pexels.com/photos/6311385/pexels-photo-6311385.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Casual Shirt</h3>
+                <p class="text-gray-600">৳ 1250</p>
+            </div>
+            <div class="border p-4 rounded-lg hover:shadow-lg transition">
+                <img src="https://images.pexels.com/photos/7048069/pexels-photo-7048069.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Basic Hoodie</h3>
+                <p class="text-gray-600">৳ 1450</p>
+            </div>
+            <div class="border p-4 rounded-lg hover:shadow-lg transition">
+                <img src="https://images.pexels.com/photos/7679723/pexels-photo-7679723.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Polo Shirt</h3>
+                <p class="text-gray-600">৳ 950</p>
+            </div>
+            <div class="border p-4 rounded-lg hover:shadow-lg transition">
+                <img src="https://images.pexels.com/photos/6311395/pexels-photo-6311395.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Oversized Tee</h3>
+                <p class="text-gray-600">৳ 850</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center py-6">
+        <p>© 2026 MIUS — All Rights Reserved by si4m</p>
+    </footer>
+
+</body>
+</html>

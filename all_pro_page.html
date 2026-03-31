@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products - Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+
+     <!-- Navbar -->
+    <header class="w-full shadow-sm sticky top-0 bg-white z-50">
+        <div class="container mx-auto flex items-center justify-between py-4 px-6">
+            <h1 href="index.html" class="text-3xl font-bold tracking-tight">MIUS</h1>
+            <nav class="space-x-6 hidden md:block">
+                <a href="all_pro_page.html" class="hover:text-gray-600">Men</a>
+                <a href="all_pro_page.html" class="hover:text-gray-600">Women</a>
+                <a href="all_pro_page.html" class="hover:text-gray-600">Kids</a>
+                <a href="all_pro_page.html" class="hover:text-gray-600">New Arrivals</a>
+            </nav>
+            <div class="flex items-center space-x-5">
+                <button class="hover:text-gray-600">Search</button>
+                <button class="hover:text-gray-600">Account</button>
+               <button onclick="window.location.href='Checkout_Page.html'" class="hover:text-gray-600">Cart</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="container mx-auto px-6 py-10">
+        <h2 class="text-4xl font-bold mb-2">All Products</h2>
+        <p class="text-gray-600">Explore our full collection — .</p>
+    </section>
+
+    <!-- Filters -->
+    <section class="container mx-auto px-6 mb-10">
+        <div class="flex flex-wrap items-center justify-between">
+            <div class="flex space-x-4 mb-4 md:mb-0">
+                <select class="border px-4 py-2 rounded-md">
+                    <option>Category</option>
+                    <option>Men</option>
+                    <option>Women</option>
+                    <option>Kids</option>
+                </select>
+
+                <select class="border px-4 py-2 rounded-md">
+                    <option>Sort By</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Newest</option>
+                </select>
+            </div>
+
+            <p class="text-gray-500">Showing 12 Products</p>
+        </div>
+    </section>
+
+    <!-- All Products Grid -->
+    <section class="container mx-auto px-6 pb-20">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+
+            <!-- Product Card -->
+            <div class="border p-4 rounded-lg hover:shadow-lg transition cursor-pointer">
+                <img src="https://images.pexels.com/photos/6311395/pexels-photo-6311395.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Oversized T-Shirt</h3>
+                <p class="text-gray-600">৳ 850</p>
+            </div>
+
+            <div class="border p-4 rounded-lg hover:shadow-lg transition cursor-pointer">
+                <img src="https://images.pexels.com/photos/6311385/pexels-photo-6311385.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Casual Shirt</h3>
+                <p class="text-gray-600">৳ 1250</p>
+            </div>
+
+            <div class="border p-4 rounded-lg hover:shadow-lg transition cursor-pointer">
+                <img src="https://images.pexels.com/photos/7679723/pexels-photo-7679723.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Polo Shirt</h3>
+                <p class="text-gray-600">৳ 950</p>
+            </div>
+
+            <div class="border p-4 rounded-lg hover:shadow-lg transition cursor-pointer">
+                <img src="https://images.pexels.com/photos/7048069/pexels-photo-7048069.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Basic Hoodie</h3>
+                <p class="text-gray-600">৳ 1450</p>
+            </div>
+
+          
+
+            <div class="border p-4 rounded-lg hover:shadow-lg transition cursor-pointer">
+                <img src="https://images.pexels.com/photos/6311653/pexels-photo-6311653.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Cotton Long Sleeve</h3>
+                <p class="text-gray-600">৳ 1100</p>
+            </div>
+
+            <div class="border p-4 rounded-lg hover:shadow-lg transition cursor-pointer">
+                <img src="https://images.pexels.com/photos/7679725/pexels-photo-7679725.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Minimal Sweatshirt</h3>
+                <p class="text-gray-600">৳ 1600</p>
+            </div>
+
+            <div class="border p-4 rounded-lg hover:shadow-lg transition cursor-pointer">
+                <img src="https://images.pexels.com/photos/6311505/pexels-photo-6311505.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Women Crop Top</h3>
+                <p class="text-gray-600">৳ 720</p>
+            </div>
+
+            <div class="border p-4 rounded-lg hover:shadow-lg transition cursor-pointer">
+                <img src="https://images.pexels.com/photos/6311387/pexels-photo-6311387.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Women Summer Dress</h3>
+                <p class="text-gray-600">৳ 1550</p>
+            </div>
+
+
+            <div class="border p-4 rounded-lg hover:shadow-lg transition cursor-pointer">
+                <img src="https://images.pexels.com/photos/6311395/pexels-photo-6311395.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Oversized T-Shirt</h3>
+                <p class="text-gray-600">৳ 850</p>
+            </div>
+
+            <div class="border p-4 rounded-lg hover:shadow-lg transition cursor-pointer">
+                <img src="https://images.pexels.com/photos/6311385/pexels-photo-6311385.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Casual Shirt</h3>
+                <p class="text-gray-600">৳ 1250</p>
+            </div>
+
+            <div class="border p-4 rounded-lg hover:shadow-lg transition cursor-pointer">
+                <img src="https://images.pexels.com/photos/7679723/pexels-photo-7679723.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Polo Shirt</h3>
+                <p class="text-gray-600">৳ 950</p>
+            </div>
+
+            <div class="border p-4 rounded-lg hover:shadow-lg transition cursor-pointer">
+                <img src="https://images.pexels.com/photos/7048069/pexels-photo-7048069.jpeg" class="w-full h-64 object-cover rounded-md" />
+                <h3 class="mt-4 text-lg font-semibold">Basic Hoodie</h3>
+                <p class="text-gray-600">৳ 1450</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center py-6">
+        <p>© 2026 MIUS — All Rights Reserved by si4m</p>
+    </footer>
+
+</body>
+</html>
